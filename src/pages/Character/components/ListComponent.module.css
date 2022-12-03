@@ -1,0 +1,25 @@
+.root {
+    margin: 1rem 0;
+}
+
+.title {
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.item {
+    position: relative;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #f0141e;
+}

@@ -1,0 +1,15 @@
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.paging {
+    margin-top: 1rem;
+}

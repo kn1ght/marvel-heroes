@@ -1,0 +1,26 @@
+.name {
+    font-size: 1.5rem;
+}
+
+.imgContainer {
+    display: inline-block;
+    max-width: 750px;
+    max-height: 750px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.description {
+    margin: 1rem 0;
+    max-width: 750px;
+}
+
+.button {
+    margin: 1rem 0;
+}

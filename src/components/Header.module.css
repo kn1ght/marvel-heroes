@@ -1,0 +1,10 @@
+.root {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.title {
+    font-size: 2rem;
+    color: #f0141e;
+    text-decoration: none;
+}

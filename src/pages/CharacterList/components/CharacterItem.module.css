@@ -1,0 +1,46 @@
+.root {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .root {
+        width: calc(50% - 10px);
+    }
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #333;
+    flex-shrink: 0;
+}
+
+.content {
+    align-items: center;
+    padding: 0.5rem 0.8rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #0891b2;
+    text-decoration: none;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #777;
+}
