@@ -25,7 +25,7 @@ export const CharacterList = () => {
 
   const searchParams = new URLSearchParams(search);
   const nameStartsWith = searchParams.get(SEARCH_KEY) ?? "";
-  const page = Number(searchParams.get(PAGE_KEY) || (paging?.page ?? 1));
+  const page = Number(searchParams.get(PAGE_KEY)) || 1;
   const orderBy: OrderBy = searchParams.get(ORDER_BY_KEY) as OrderBy ?? "name";
 
   React.useEffect(() => {

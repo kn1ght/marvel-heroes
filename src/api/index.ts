@@ -63,7 +63,7 @@ const fetchWrap = async <T>(url: string, init?: RequestInit): Promise<TResponse<
   } catch (e) {
     return {
       success: false,
-      reason: "error"
+      reason: (e as Error)?.name === "AbortError" ? "aborted" : "error"
     };
   }
 };
